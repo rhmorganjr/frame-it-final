@@ -1,40 +1,6 @@
-# Frame It
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-## Description
-An app where local artists can display art they have created and showcase for other local artist to buy. Displaying the art in an instagram-like way plus a buying button/option for interested artists to buy.
-## Table of Contents
-* [Installation](#installation)
-* [Usage](#usage)
-* [Image](#image)
-* [License](#license)
-* [Credits](#credits)
-* [Tests](#tests)
-* [Questions](#questions)
-  
-## Installation
-Clone repo, install npm dependencies, and run npm start from root directory.
-## Usage
-Click on the link below to access the web app.
-* [Frame It](https://cryptic-peak-35227.herokuapp.com/)
-### App Image:
-![](client/public/frameitfeed.png)
-## License
-Licensed under MIT.
-## Credits
-Application created with the help of Saul Huerta, Andy Sanchez, and Russell Morgan.
-## Tests
-There are currently no tests for this application.
-## Questions
-If you have any questions about the repo, open an issue or contact us directly.
-* [GitHub - Saul Huerta](https://github.com/saul10huerta)
-* [GitHub - Andy Sanchez ](https://github.com/AndySanchez726)
-* [GitHub - Russell Morgan](https://github.com/rhmorganjr)
-
-## More information for app below:
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### `Available Scripts`
+## Available Scripts
 
 In the project directory, you can run:
 
