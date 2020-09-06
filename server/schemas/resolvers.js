@@ -29,10 +29,6 @@ const resolvers = {
             .populate('items')
             // .populate('thoughts');
         },
-        items: async () => {
-          console.log("resolvers items");
-          return Item.find()
-        },
         // get user logged in
         me: async (parent, args, context) => {
           if(context.user) {
@@ -43,6 +39,11 @@ const resolvers = {
             return userData;
           }
           throw new AuthenticationError('Not logged in');
+        },
+        items: async () => {
+          return Item.find()
+          .select('-__v -password')
+          .populate('items')
         }
     },
     Mutation: {
